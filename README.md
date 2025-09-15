@@ -4,8 +4,12 @@
 
 ## Usage
 
-`./0x0cli -f {filename}`
+```bash
+./0x0dli -f {filename}`
+```
 
 # Building
 
-`go build`
+```bash
+go build
+```
