@@ -5,7 +5,7 @@
 ## Usage
 
 ```bash
-./0x0dli -f {filename}`
+./0x0cli -f {filename}
 ```
 
 # Building
