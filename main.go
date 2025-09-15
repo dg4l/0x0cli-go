@@ -19,6 +19,7 @@ type RequestParams struct {
 }
 
 // this is not reusable in other contexts.
+// doesn't matter though.
 func create0x0UploadRequest(uri string, params RequestParams) (*http.Request, error){
     requestBody := &bytes.Buffer{}
     writer := multipart.NewWriter(requestBody)
